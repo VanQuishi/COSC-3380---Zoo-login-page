@@ -1,0 +1,115 @@
+/**{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: montserrat;
+}*/
+
+/*body{
+    min-height: 100vh;
+    background-image: linear-gradient(130deg,#57FFDD,#FF713D);
+}*/
+
+/*linear-gradient(black,black), */
+
+*{
+    box-sizing: border-box;
+}
+
+body, html{
+    height: 100%;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: montserrat;
+}
+
+.bg-image{
+    background-image: url("bg_3.jpg");
+    background-blend-mode: saturation;
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.login-form{
+    
+    width: 280px;
+    border-radius: 10px;
+    color: #532f22;
+    padding: 80px 40px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.login-form h1{
+    float: left;
+    font-size: 40px;
+    /*border-bottom: 6px solid #1ed760;*/
+    margin-bottom: 50px;
+    padding: 13px 0;
+
+    background: linear-gradient(to left, rgb(11, 27, 11), #FF713D) left bottom no-repeat;
+    background-size: 100% 3px;
+}
+
+.txtb{
+    width: 100%;
+    overflow: hidden;
+    font-size: 20px;
+    padding: 8px 0;
+    margin: 8px 0;
+    background: linear-gradient(130deg,#57FFDD,#FF713D);
+    border-radius: 10px;
+    
+}
+
+.txtb input{
+    border: none;
+    outline: none;
+    background: none;
+    color: black;
+    font-size: 18px;
+    width: 80%;
+    margin: 0 10px;
+}
+
+input::placeholder{
+    color: #532f22;
+}
+
+.logbtn{
+    border-radius: 25px;
+    width: 50%;
+    background: linear-gradient(130deg,#57FFDD,#FF713D);;
+    border: 2px solid #91e97f;
+    color: #532f22;
+    padding: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 12px 0;
+}
+
+.logbtn:hover{
+    border: 2px solid #532f22;
+}
+
